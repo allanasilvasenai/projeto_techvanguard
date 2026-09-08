@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    background-color: #0077B6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CAF0F8;
+}
+
+.cabecalho {
+    background-color: #023E8A;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #CAF0F8;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color:#CAF0F8;
+    background-color: #023E8A;
+}
+
+.menu a {
+    color: #CAF0F8;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 1.0s ease;
+}
+
+.titulo {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;;
+}
+
+.titulo-site {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #CAF0F8;
+}
+
+.frase {
+    color: #CAF0F8;
+    margin-bottom: 30px;
+}
+
+.area-home {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; 
+}
+
+.foto-inicio {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.coluna-midia {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column; 
+}
+
+.mostrando {
+    font-size: 50px;
+    color: #CAF0F8;
+}
+
+.explicando {
+    width: 50%;
+    color: #CAF0F8;
+}
+
+.cards {
+    color: #CAF0F8;
+}
+
+.dados {
+    font-size: 20px;
+}
+
+.grade {
+    display: grid; /*Organiza todos os elementos (filhos) em linhas e colunas.*/
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.poster {
+width: 100%;
+height: 320px;
+object-fit: cover; /*Garante que todas as imgens fiquem com a altura perfeita*/
+border-radius: 20px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #023E8A;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #CAF0F8;
+}
+
+.letra {
+    background-color: #023E8A;
+    color: #CAF0F8;
+}
