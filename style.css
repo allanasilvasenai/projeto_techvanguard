@@ -113,3 +113,90 @@ border-radius: 20px;
     background-color: #023E8A;
     color: #CAF0F8;
 }
+
+.area-inscricao {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; /*Alinha o topo de todas as colunas*/
+}
+
+.coluna-form {
+    flex: 1; /*Faz o formulário crescer proporcionalmente*/
+    min-width: 320px;
+    background-color: #2e2e88;
+    padding: 30px;
+    border-radius: 10px; /*Cantos arredondados*/
+    box-shadow: 0 4px 12px #023E8A; 
+}
+
+.coluna-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.coluna-form input [type="text"],
+.coluna-form input [type="password"],
+.coluna-form input [type="email"],
+.coluna-form input [type="date"],
+.coluna-form input::placeholder,
+.coluna-form textarea,
+.coluna-form select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #023E8A;
+    color: #CAF0F8;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-enviar {
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer; /*Transforma a seta do mouse em uma mãozinha*/
+}
+
+.btn-enviar:hover {
+    background-color: #023E8A ;
+}
+
+.btn-limpar:hover {
+    background-color: #023E8A;
+}
+
+.btn-limpar {
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer; /*Transforma a seta do mouse em uma mãozinha*/
+    margin-left: 10px;
+}
+
+.letra-form {
+    background-color: #2e2e88;
+    color: #CAF0F8;
+}
+
+.dados-form {
+    background-color: #023E8A;
+    color: #CAF0F8;
+}
+
+.titulo-secao {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.coluna-form {
+    text-align: center;
+    justify-content: center;
+}
